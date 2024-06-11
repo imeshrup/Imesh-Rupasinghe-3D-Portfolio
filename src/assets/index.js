@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,14 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from './nextjs.png';
+import vuejs from './vuejs.png';
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import apex from "./company/apex.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import netflix from "./Netflix.png";
+import mrglobal from "./mrglobal.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -53,10 +54,11 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
   starbucks,
-  tesla,
-  carrent,
-  jobit,
+  apex,
+  netflix,
+  mrglobal,
   tripguide,
+  nextjs,
+  vuejs
 };

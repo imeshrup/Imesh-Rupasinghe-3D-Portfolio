@@ -56,6 +56,13 @@
     #f12711,
     #f5af19
   ); /* Chrome 10-25, Safari 5.1-6 */
+  /* src/styles.css */
+.pink-yellow-red-gradient {
+  background: linear-gradient(to top, #ff6b6b, #ffd700, #ff1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
   background: linear-gradient(
     to top,
     #f12711,
