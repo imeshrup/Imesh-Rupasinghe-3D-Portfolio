@@ -11,6 +11,7 @@ import {
   redux,
   tailwind,
   netflix,
+  carnage,
   mrglobal,
   tripguide,
   threejs,
@@ -18,7 +19,6 @@ import {
   nextjs,
   apex,
   vuejs,
-  carnage
 } from "../assets";
 
 export const navLinks = [
@@ -101,7 +101,7 @@ const projects = [
   {
     name: "Carnage Clone",
     description:
-      "A clone of the trending clothing store named Carnage",
+      "A clone of a trending clothing store named Carnage to gain online shopping experience of wide variety of branded clothes and worldwide shopping experience",
     tags: [
       {
         name: "html",
@@ -151,7 +151,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
