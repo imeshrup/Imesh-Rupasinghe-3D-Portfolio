@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import apex from "./company/apex.jpeg";
 
 import netflix from "./Netflix.png";
-import carnage from "./carnage.png";
+import carnage from "./company/carnage.png";
 import mrglobal from "./mrglobal.png";
 import tripguide from "./tripguide.png";
 
