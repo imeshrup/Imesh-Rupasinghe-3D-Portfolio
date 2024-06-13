@@ -99,7 +99,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Netflix web App",
+    name: "Carnage Clone",
     description:
       "A clone of the trending clothing store named Carnage",
     tags: [
