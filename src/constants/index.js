@@ -17,7 +17,8 @@ import {
   starbucks,
   nextjs,
   apex,
-  vuejs
+  vuejs,
+  carnage
 } from "../assets";
 
 export const navLinks = [
@@ -100,14 +101,14 @@ const projects = [
   {
     name: "Netflix web App",
     description:
-      "Netflix is a Web-based platform streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more.",
+      "A clone of the trending clothing store named Carnage",
     tags: [
       {
         name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
       {
@@ -115,8 +116,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
-    source_code_link: "https://netflix-myweb-app.netlify.app/",
+    image: carnage,
+    source_code_link: "https://github.com/imeshrup/carnage-clone.git",
 
   },
   {
