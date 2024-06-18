@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import imesh from '../assets/imesh.jpg'; // Ensure to place your image in the correct path
+import imesh from '../assets/imesh.jpg';
 
 const Contact = () => {
   return (
