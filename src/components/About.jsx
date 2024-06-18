@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from '../utils/motion';
+import { reactjs} from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[150px] w-full">
@@ -24,11 +25,21 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className="bg-tertiary box-[12px] py-3 px-6 min-h-[180px] md:min-h-[200px] lg:min-h-[220px] flex justify-evenly items-center flex-col"
       >
-        <img
-          src={icon}
-          alt={title}
-          className='w-10 h-10 object-contain'
+         {icon === reactjs ? (
+          <motion.img
+            src={icon}
+            alt={title}
+            className='w-10 h-10 object-contain'
+            animate={{ rotate: 360 }} // Rotate the icon 360 degrees
+            transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+          />
+        ) : (
+          <img
+            src={icon}
+            alt={title}
+            className='w-10 h-10 object-contain'
         />
+        )}
         <h3 className='text-white text-[16px] font-bold text-center'>
           {title}
         </h3>
@@ -39,6 +50,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 
 const About = () => {
+  
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -48,7 +60,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[15px] max-w-3xl leading-[30px]'
       >
         <p>Hello! I'm a dedicated web developer with a strong passion for creating 
           engaging and functional websites. I specialize in front-end development, 
@@ -58,7 +70,7 @@ const About = () => {
           with the latest industry trendsto continuously improve my skills and deliver high-quality solutions.</p>
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10  sm:grid[grid grid-cols-2]'>
+      <div className='mt-20 grid grid-cols-2 gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

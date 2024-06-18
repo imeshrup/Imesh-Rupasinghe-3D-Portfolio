@@ -42,11 +42,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-46 h-20 object-contain' />
-          {/* <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-             &nbsp;
-            <span className='sm:block hidden'>Imesh | Rupasinghe</span>
-          </p> */}
+          <img src={logo} alt='logo' className='w-32 h-18 object-contain' />
+      
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

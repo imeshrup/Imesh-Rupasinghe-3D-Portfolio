@@ -30,6 +30,7 @@ import netflix from "./Netflix.png";
 import carnage from "./company/carnage.png";
 import mrglobal from "./mrglobal.png";
 import tripguide from "./tripguide.png";
+import imesh from "./imesh.jpg";
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   mrglobal,
   tripguide,
   nextjs,
-  vuejs
+  vuejs,
+  imesh
 };
