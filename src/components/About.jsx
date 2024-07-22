@@ -69,7 +69,7 @@ const About = () => {
           provide an exceptional user experience. I’m committed to learning and staying up-to-date
           with the latest industry trendsto continuously improve my skills and deliver high-quality solutions.</p>
       </motion.p>
-
+      
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

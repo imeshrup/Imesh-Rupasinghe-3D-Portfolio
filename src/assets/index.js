@@ -3,7 +3,6 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,7 +28,8 @@ import apex from "./company/apex.jpeg";
 import netflix from "./Netflix.png";
 import carnage from "./company/carnage.png";
 import mrglobal from "./mrglobal.png";
-import tripguide from "./tripguide.png";
+import cruzpos from './cruzpos.png';
+import apexinnov from './apex.png';
 import imesh from "./imesh.jpg";
 
 export {
@@ -38,7 +38,6 @@ export {
   creator,
   mobile,
   web,
-  github,
   menu,
   close,
   css,
@@ -58,8 +57,9 @@ export {
   apex,
   netflix,
   carnage,
+  cruzpos,
   mrglobal,
-  tripguide,
+  apexinnov,
   nextjs,
   vuejs,
   imesh

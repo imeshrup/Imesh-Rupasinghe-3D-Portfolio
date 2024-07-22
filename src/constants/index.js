@@ -13,10 +13,11 @@ import {
   netflix,
   carnage,
   mrglobal,
-  tripguide,
+  cruzpos,
   threejs,
   starbucks,
   nextjs,
+  apexinnov,
   apex,
   vuejs,
 } from "../assets";
@@ -31,13 +32,13 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
-  {
     id: "projects",
     title: "Projects",
   },
+  {
+    id: "contact",
+    title: "Contact",
+  }
 ];
 
 const services = [
@@ -98,35 +99,14 @@ const experiences = [
 
 
 const projects = [
-  {
-    name: "Carnage Clone",
-    description:
-      "A clone of a trending clothing store named Carnage to gain online shopping experience of wide variety of branded clothes and worldwide shopping experience",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carnage,
-    source_code_link: "https://github.com/imeshrup/carnage-clone.git",
-
-  },
+ 
   {
     name: "Exporting Site",
     description:
       "Exporting top quality products mainly spices, rice and seafood worldwide for Sri Lankan taste lovers. You can get high nutritious items by contacting us.",
     tags: [
       {
-        name: "html",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
@@ -142,25 +122,68 @@ const projects = [
     source_code_link: "https://mrglobalimpex.com/",
   },
   {
-    name: "Trip Guide",
+    name: "POS System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cruz POS is more than just a tool – it’s your business’s ultimate ally. Ease sales, invoices, payments with Cruz POS and Stay on top of your game.",
     tags: [
       {
-        name: "nextjs",
+        name: "Wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Plugins",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cruzpos,
+    source_code_link: "https://cruzpos.com/",
+  },
+  {
+    name: "Apex Innovations",
+    description:
+      "Apex innovations (Pvt) Ltd is a Software company in Sri Lanka to fulfill all your requirements regarding Digital Marketing/ Software marketing, Website development",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: apexinnov,
+    source_code_link: "https://apexinnovationslk.com/",
+  },
+  {
+    name: "Carnage Clone",
+    description:
+      "A clone of a trending clothing store named Carnage to gain online shopping experience of wide variety of branded clothes and worldwide shopping experience",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carnage,
+    source_code_link: "https://github.com/imeshrup/carnage-clone.git",
+
   },
 ];
 
